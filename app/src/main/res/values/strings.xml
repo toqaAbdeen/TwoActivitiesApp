@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TwoActivitiesApp</string>
+    <string name="first_activity">First Activity</string>
+    <string name="write_whatever_you_want">Write whatever you want.</string>
+    <string name="open">Open</string>
+    <string name="second_activity">Second Activity</string>
+    <string name="lastTextView">You’ve completed the journey! 😊</string>
+</resources>

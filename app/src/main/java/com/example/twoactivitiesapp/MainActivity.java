@@ -45,4 +45,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void btnSendEmailOnClick(View view) {
+        Intent intentSendEmail = new Intent(Intent.ACTION_SEND);
+        intentSendEmail.putExtra(Intent.EXTRA_TEXT,"This is the msg content");//name-value
+        intentSendEmail.putExtra(Intent.EXTRA_SUBJECT,"This is the msg subject");
+        intentSendEmail.setType("text/plain");
+        Intent chooser = Intent.createChooser(intentSendEmail,null);
+        startActivity(chooser);
+    }
 }
